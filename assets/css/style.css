@@ -56,10 +56,10 @@ body {
     border: 2px dashed #93c5fd;
     border-radius: 10px;
 
+    min-height: 300px;
     display: flex;
-    flex-direction: row;
     gap: 16px;
-    flex-wrap: wrap;
+    align-items: center;
 }
 
 .item {
@@ -75,4 +75,17 @@ body {
 
 .item {
     flex: 1 1 150px;
+}
+.item-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.item-3 {
+    align-self: center;
+}
+.item-5 {
+
 }
